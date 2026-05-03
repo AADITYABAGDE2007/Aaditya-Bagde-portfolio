@@ -73,9 +73,9 @@ export default function Contact() {
 
       <div className="grid md:grid-cols-2 gap-12">
         <div className="contact-elem">
-          <h3 className="text-3xl font-bold text-white mb-6">Let's build something amazing together.</h3>
+          <h3 className="text-3xl font-bold text-white mb-6">Let&apos;s build something amazing together.</h3>
           <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-            I'm currently looking for new opportunities. Whether you have a question, a project idea, or just want to say hi, my inbox is always open.
+            I&apos;m currently looking for new opportunities. Whether you have a question, a project idea, or just want to say hi, my inbox is always open.
           </p>
           
           <div className="flex flex-col gap-4 mb-8">

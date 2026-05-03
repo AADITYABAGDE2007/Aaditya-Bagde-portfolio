@@ -36,10 +36,10 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="about-item space-y-6 text-gray-300 text-lg leading-relaxed">
           <p>
-            I'm Aaditya Bagde, currently pursuing my B.Tech in Artificial Intelligence and Machine Learning (2024-2028) at Bansal Institute of Science and Technology, Bhopal.
+            I&apos;m Aaditya Bagde, currently pursuing my B.Tech in Artificial Intelligence and Machine Learning (2024-2028) at Bansal Institute of Science and Technology, Bhopal.
           </p>
           <p>
-            My journey involves building web applications using React.js and Tailwind CSS, and implementing dynamic data handling and API integrations. I've developed numerous projects ranging from interactive browser games to functional translation apps.
+            My journey involves building web applications using React.js and Tailwind CSS, and implementing dynamic data handling and API integrations. I&apos;ve developed numerous projects ranging from interactive browser games to functional translation apps.
           </p>
           <p>
             I am highly focused on improving my technical expertise, applying problem-solving skills in real projects, and delivering efficient, scalable software and AI-based applications.
