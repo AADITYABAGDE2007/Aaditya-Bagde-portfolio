@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ExternalLink, Code2, Play, X, Activity } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -127,10 +128,11 @@ export default function Projects() {
           <div key={idx} className="project-card glass-card rounded-2xl overflow-hidden group flex flex-col h-full">
             <div className="h-48 bg-dark-300 relative overflow-hidden flex items-center justify-center border-b border-white/10">
                {project.image ? (
-                 <img 
+                 <Image 
                    src={project.image} 
                    alt={project.title} 
-                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                   fill
+                   className="object-cover group-hover:scale-105 transition-transform duration-500" 
                  />
                ) : (
                  <Activity className="w-16 h-16 text-white/20 group-hover:scale-110 transition-transform duration-500" />
