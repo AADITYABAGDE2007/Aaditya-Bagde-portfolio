@@ -79,25 +79,25 @@ export default function Contact() {
           </p>
           
           <div className="flex flex-col gap-4 mb-8">
-            <a href="mailto:bagdeaaditya507@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">
-              <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
-                <Mail className="w-5 h-5" />
+            <a href="mailto:bagdeaaditya507@gmail.com" className="flex items-center gap-3 sm:gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit max-w-full">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
+                <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
-              <span className="text-lg">bagdeaaditya507@gmail.com</span>
+              <span className="text-sm sm:text-base md:text-lg break-all">bagdeaaditya507@gmail.com</span>
             </a>
             
-            <a href="tel:+917722912906" className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">
-              <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
-                <Phone className="w-5 h-5" />
+            <a href="tel:+917722912906" className="flex items-center gap-3 sm:gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit max-w-full">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
-              <span className="text-lg">+91 7722912906</span>
+              <span className="text-sm sm:text-base md:text-lg">+91 7722912906</span>
             </a>
             
-            <a href="/resume.pdf" download className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">
-              <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
-                <FileText className="w-5 h-5" />
+            <a href="/resume.pdf" download className="flex items-center gap-3 sm:gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit max-w-full">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
+                <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
-              <span className="text-lg">Download Resume (PDF)</span>
+              <span className="text-sm sm:text-base md:text-lg">Download Resume (PDF)</span>
             </a>
           </div>
           

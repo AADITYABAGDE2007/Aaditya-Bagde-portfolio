@@ -46,12 +46,12 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <div key={index} className="timeline-item mb-12 relative pl-8 md:pl-0">
             {/* Timeline Dot */}
-            <div className="absolute -left-[41px] md:-left-[41px] bg-dark-100 border-4 border-accent-cyan w-5 h-5 rounded-full mt-1.5 shadow-[0_0_10px_#00f0ff]"></div>
+            <div className="absolute -left-[11px] md:-left-[41px] bg-dark-100 border-4 border-accent-cyan w-5 h-5 rounded-full mt-1.5 shadow-[0_0_10px_#00f0ff]"></div>
             
             <div className="glass-card p-6 md:p-8 rounded-2xl hover:border-accent-cyan/50 transition-colors">
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
                 <div>
-                  <h3 className="text-2xl font-bold text-white flex items-center gap-2">
+                  <h3 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
                     {exp.role}
                   </h3>
                   <p className="text-lg text-accent-cyan flex items-center gap-2 mt-1">
