@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Globe, Code2, Mail, FileText, Send } from "lucide-react";
+import { Globe, Code2, Mail, FileText, Send, Phone } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,11 +79,18 @@ export default function Contact() {
           </p>
           
           <div className="flex flex-col gap-4 mb-8">
-            <a href="mailto:contact@aadityabagde.com" className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">
+            <a href="mailto:bagdeaaditya507@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">
               <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
                 <Mail className="w-5 h-5" />
               </div>
-              <span className="text-lg">contact@aadityabagde.com</span>
+              <span className="text-lg">bagdeaaditya507@gmail.com</span>
+            </a>
+            
+            <a href="tel:+917722912906" className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">
+              <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-accent-cyan/10 transition-colors">
+                <Phone className="w-5 h-5" />
+              </div>
+              <span className="text-lg">+91 7722912906</span>
             </a>
             
             <a href="/resume.pdf" download className="flex items-center gap-4 text-gray-300 hover:text-accent-cyan transition-colors group w-fit">

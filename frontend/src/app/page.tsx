@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <Experience />
       <Skills />
       <Projects />
@@ -39,6 +41,7 @@ export default function Home() {
             {/* Quick Links */}
             <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-gray-400">
               <a href="#about" className="hover:text-accent-cyan transition-colors">About</a>
+              <a href="#education" className="hover:text-accent-cyan transition-colors">Education</a>
               <a href="#experience" className="hover:text-accent-cyan transition-colors">Experience</a>
               <a href="#projects" className="hover:text-accent-cyan transition-colors">Projects</a>
               <a href="#contact" className="hover:text-accent-cyan transition-colors">Contact</a>
